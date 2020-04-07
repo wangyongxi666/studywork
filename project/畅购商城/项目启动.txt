@@ -1,0 +1,11 @@
+启动 虚拟机  192.168.0.101  root  123456
+
+启动 fescar-server.bat
+
+启动 echosite
+
+关闭 rabbitmq  docker 镜像    docker stop  410a37e15588
+
+启动 rabbitmq_web_stomp 镜像  docker start  6133ea4d5895
+
+秒杀：修改数据库商品 开始时间和结束时间  清空redis中的秒杀商品 ,( 删除下过的秒杀单 , 该用户在redis中的下单次数(seckill_user_xiaohei_id) 该值会在五分钟之后被清除)

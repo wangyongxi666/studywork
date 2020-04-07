@@ -1,0 +1,5 @@
+启动zookeeper
+启动redis server
+图片上传 修改页面上的七牛云域名
+
+使用技术：spring 、 spring mvc 、mybatis 、dubbo 、 redis 、jedis 、 七牛云上传 、 zookeeper 、 poi文件导入
